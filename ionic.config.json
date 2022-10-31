@@ -1,0 +1,7 @@
+{
+  "name": "micapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

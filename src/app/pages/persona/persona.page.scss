@@ -1,0 +1,27 @@
+
+  ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  
+  ion-card{
+    background-color: rgb(37, 35, 35);
+    
+  }
+  p{
+    background-color: red;
+    margin-left: 60%;
+    margin-right: 10%;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+  }
+  body{
+    background-color:  rgb(255, 117, 4);
+  }
+  ion-avatar.img{
+    margin-right: 13%;
+  }
+  ion-label{
+    margin-left: 11%;
+  }

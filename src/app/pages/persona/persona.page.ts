@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./persona.page.scss'],
 })
 export class PersonaPage implements OnInit {
+  
+  personaVisible=false;
+  
 
   constructor() { }
 

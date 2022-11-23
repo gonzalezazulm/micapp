@@ -12,18 +12,21 @@
           <h3>Login</h3>
         </div>
         <div padding>
+            <!-- Label Nombre Usuario -->
           <ion-item>
-            <ion-input name="email" type="email" placeholder="your@email.com"></ion-input>
+            <ion-input type="text" id="float-input" pInputText formControlName="nombreusuario"></ion-input>
           </ion-item>
+            <!-- Label Contraseña -->
           <ion-item>
-            <ion-input name="password" type="password" placeholder="Password"></ion-input>
+            <ion-input type="password" id="float-input" pInputText formControlName="contrasena"></ion-input>
           </ion-item>
         </div>
         <div padding>
-          <ion-button size="large" type="submit" routerLink="/persona" expand="block">Login</ion-button>
+          <ion-button size="large"id="boton" pButton pRipple type="submit" type="submit" (click)="verificarUsuario()" expand="block">Login</ion-button>
         </div>
       </ion-col>
     </ion-row>
-  </ion-grid>
+  </ion-grid>            
+  
 
 </body>
